@@ -1,6 +1,6 @@
-import React from 'react';
-import VideoItem from './VideoItem';
-import { CardColumns } from 'reactstrap';
+import React from "react";
+import VideoItem from "./VideoItem";
+import { CardColumns } from "reactstrap";
 
 const VideoList = ({ videos, onVideoSelect }) => {
   const renderedList = videos.map(video => {
@@ -13,7 +13,7 @@ const VideoList = ({ videos, onVideoSelect }) => {
     );
   });
 
-  return <CardColumns >{renderedList}</CardColumns >;
+  return <CardColumns>{renderedList}</CardColumns>;
 };
 
 export default VideoList;
